@@ -176,14 +176,38 @@ left: 54%;
     left: 52%;
 }
 
+#irene:not(.active):before {
+    content: 'Hurricane Irene';
+    font-size: 0.8rem;
+    position: absolute;
+    top: -27px;
+    text-align: center;
+}
+
 #sandy:not(.active) {
     top: 45%;
     left: 54%;
 }
 
+#sandy:not(.active):after {
+    content: 'Superstorm Sandy';
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: -27px;
+    text-align: center;
+}
+
 #ida:not(.active) {
     top: 25%;
     left: 77%;
+}
+
+#ida:not(.active):before {
+    content: 'Hurricanes Henri and Ida';
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: -10px;
+    text-align: center;
 }
 .dot.active {
     width: 100%;
